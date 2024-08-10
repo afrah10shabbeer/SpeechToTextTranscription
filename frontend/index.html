@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> <!-- For Raleway -->
+    <title>Speech to Text Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="speechToText"></div>
+    <h2>Speech To Text Converter</h2>
+    <textarea id="transcriptionBox"></textarea>
+
+    <div class="confidenceContainer">
+        <h3>Confidence Rate:  </h3>
+        <p id="confidenceValueId"></p>
+        <p id="percentageSymbol"></p>
+    </div>
+
+
+    <div class="recordingButtonContainer">
+        <button id="startRecording">Start Recording</button>
+        <button id="stopRecording" disabled>Stop Recording</button>
+    </div>
+
+    <div class="audioContainer">
+        <button id="playAudio" disabled>Play Audio</button>
+        <audio id="audioPlayback" controls></audio>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

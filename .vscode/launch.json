@@ -1,0 +1,32 @@
+// {
+//     "configurations": [
+        
+//     {
+//         "name": "Launch Chrome",
+//         "request": "launch",
+//         "type": "chrome",
+//         "url": "http://localhost:3000",
+//         "webRoot": "${workspaceFolder}/frontend"
+//     }
+//     ]
+// }
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//       {
+//         "type": "node",
+//         "request": "launch",
+//         "name": "Nodemon Debug",
+//         "runtimeExecutable": "npm",
+//         "runtimeArgs": [
+//           "run-script",
+//           "start:debug"
+//         ],
+//         "port": 9229,
+//         "restart": true,
+//         "console": "integratedTerminal",
+//         "internalConsoleOptions": "neverOpen"
+//       }
+//     ]
+//   }
+  
